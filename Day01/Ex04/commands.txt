@@ -1,0 +1,36 @@
+    1  mkdir -d '2077-01-01'
+    2  touch -a -m -t 20770101 try.txt
+    3  touch -y -a -m try.txt
+    4  touch -a -m try.txt
+    5  ls -l
+    6  touch -a -m -t 20770101 ty.txt
+    7  touch -t 20770101 ty.txt
+    8  touch -t 2077010100 ty.txt
+    9  touch -t 20770101 ty.txt
+   10  touch -t 207701010000 ty.txt
+   11  clear
+   12  ls -l
+   13* mkdir -t 207701010000 test
+   14  mkdir test0
+   15  mkdir test1
+   16  touch -t 207701010000 test2
+   17  mkdir test3
+   18  touch -t 207701010000 test4
+   19  mkdir test5
+   20  ls -l
+   21  touch -t 207701010000 test0
+   22  touch -t 207701010000 test1
+   23  touch -t 207701010000 test3
+   24  touch -t 207701010000 test5
+   25  clear
+   26  ls -l
+   27  chmod 744 test1
+   28  ls -l
+   29  chmod 664 test2
+   30  ls -l
+   31  clear
+   32  chmod 775 test3
+   33  ls -l
+   34  chmod 111 test5
+   35  ls -l
+   36  history > commands.txt

@@ -1,0 +1,2 @@
+d=`date +"%a_%d_%b_%Y_%H_%M_%S_%Z"`
+tar -czf /Users/admin/Documents/backup/backup_${d}.tar.gz -C /Users/admin Pictures

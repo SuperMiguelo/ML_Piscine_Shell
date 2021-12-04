@@ -1,0 +1,2 @@
+0 8 * * 1-5 curl wttr.in/lyon > /home/miguel/Documents/git_environment/Day03/Ex03/Meteo/meteoOfTheDay.txt
+

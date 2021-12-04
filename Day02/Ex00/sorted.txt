@@ -1,0 +1,9 @@
+command.txt
+next.config.js
+node_modules
+package.json
+package-lock.json
+pages
+public
+sorted.txt
+styles

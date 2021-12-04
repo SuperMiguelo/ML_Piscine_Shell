@@ -1,0 +1,2 @@
+head -n -2 deposition_Joe_Rugiani.txt > temp.txt && mv temp.txt deposition_Joe_Rugiani.txt
+

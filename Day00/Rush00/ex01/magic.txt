@@ -1,0 +1,2 @@
+sed -i "s/cadillac jaune/chevrolet impala/g" depoistion_Joe_Rugiani.txt | sed -i "s/vert/rouge/g" deposition_Joe_Rugiani.txt
+

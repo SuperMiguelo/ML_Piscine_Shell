@@ -1,0 +1,75 @@
+    1  clear
+    2  cd covers/
+    3  mkdir Constructeurs
+    4  cd Constructeurs/
+    5  mkdir Sony
+    6  mkdir Nintendo
+    7  mkdir Microsoft
+    8  mkdir Sega
+    9  cd Sony/
+   10  mkdir Consoles
+   11  cd Consoles/
+   12  mkdir PS4
+   13  mkdir PS5
+   14  cd ..
+   15  cd Nintendo
+   16  mkdir Consoles
+   17  mkdir Consoles portables
+   18  cd Consoles
+   19  mkdir GameCube
+   20  cd ..
+   21  cd consoles portables
+   22  cd Consoles portables
+   23  ls 
+   24  cd Consoles portables
+   25  cd Consoles_portables/
+   26  mkdir Game_boy
+   27  cd ..
+   28  cd Microsoft/
+   29  mkdir Consoles
+   30  cd Consoles/
+   31  mkdir Xbox
+   32  mkdir Xbox360
+   33  cd ..
+   34  cd sega
+   35  cd Sega/
+   36  mkdir Consoles
+   37  cd Consoles/
+   38  mkdir Dreamcast
+   39  cd ..
+   40  cp dc_jetgrindradio_10.jpg /Sega
+   41  mv dc_jetgrindradio_10.jpg Dreamcast
+   42  cd covers/
+   43  mv dc_jetgrindradio_10.jpg Dreamcast
+   44  cd  Constructeurs/Sega/Consoles/Dreamcast/
+   45  ls
+   46  mv dc_jetgrindradio_10.jpg Dreamcast1
+   47  cd ..
+   48  mv dc_jetgrindradio_10.jpg Dreamcast1
+   49  cd ..
+   50  clear
+   51* mv Dreamcast1 
+   52  mv Dreamcast dc_jetgrindradio_10.jpg
+   53  mv Dreamcast1 dc_jetgrindradio_10.jpg
+   54  clear
+   55  mv dc_jetgrindradio_10.jpg Constructeurs
+   56  cd Constructeurs/
+   57  mv dc_jetgrindradio_10.jpg Sega/Consoles/Dreamcast/
+   58  cd ..
+   59  mv dc_jetsetradio_eu_front.jpg dc_shenmue_eu.jpg dc_shenmueii_5.jpg Constructeurs/Sega/Consoles/Dreamcast/
+   60  mv gameboy.pokmonred.jpg gbc_pokemongold.jpg gb_pokemonblue_eu.jpg gb_pokemongreen_3.jpg gb_pokemonyellow_au.jpg Constructeurs/Nintendo/Consoles_portables/Game_boy/
+   61  mv gc_mariokartdoubledash.jpg gc_supermariosunshine.jpg Constructeurs/Nintendo/Consoles/GameCube/
+   62  mv playstation_4.assassinscreedodyssey.jpg playstation_4.unchartedthelostlegacy.jpg playstation_4.watchdogs2.jpg Constructeurs/Sony/Consoles/PS4
+   63  mv playstation_5.assassinscreedvalhalla.jpg playstation_5.farcry6.jpg playstation_5.residentevilvillage_.jpg Constructeurs/Sony/Consoles/PS5
+   64  mv ps4_fifa14.jpg Constructeurs/Sony/Consoles/PS4
+   65  clear
+   66  mv xbox_deadtorights.jpg xbox_defjamfightforny.jpg xbox_halo2.jpg xbox_halo_2.jpg xbox_jetsetradiofuture_2.jpg xbox_needforspeedunderground2.jpg xbox_deadoralive3.jpg Constructeurs/Microsoft/Consoles/Xbox
+   67  mv x360_callofduty3.jpg x360_callofduty2.jpg x360_callofduty4x360callofdutyblackopsii.jpg xbox_360.fableiii.jpg Constructeurs/Microsoft/Consoles/xbox360
+   68  mv x360_callofduty3.jpg x360_callofduty2.jpg x360_callofduty4x360callofdutyblackopsii.jpg xbox_360.fableiii.jpg Constructeurs/Microsoft/Consoles/Xbox360
+   69  clear
+   70  mv x360_callfoduty3.jpg x360callofduty4.jpg x360_callofdutyblackopsii.jpg 
+   71  mv x360_callfoduty3.jpg x360callofduty4.jpg x360_callofdutyblackopsii.jpg Constructeurs/Microsoft/Consoles/Xbox360
+   72  mv x360_callofduty4.jpg Constructeurs/Microsoft/Consoles/Xbox360
+   73  clear
+   74  history
+   75  history > commands.txt
